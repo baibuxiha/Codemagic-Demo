@@ -25,7 +25,7 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
-    secure: wEXTTnyKrIDk4Fz2sliVVca+RVvhGgZnhBK9WbLBMeKo7QIZz0tYnMyYgDG54k6iDnKycT0yXBExScGRTSeG/gPS+Lem2E8RPkM3N/vDyHEBRqYRrpz9pYX6fGp76cO7k+UopR/+abDjWn7RGCjwBoSmyzHriBxxIkJk+OIMscE8BntnzS09fvyTBuFm365QriB2aeySaTaCwYn6YqeKWmWmgMF5qTYodkQaD4+UidMqFarbHW5VTfSJfeAaGFuU4sEMRM15IQSprPzwmsOfGblcW1sDmmG3wLcTZ3LHtUupNNUA0QwHY965mNJP5m39eTONWxdo+UWARfOwVngX2H19gdQX8+CsJO+QybAhwiAK+LjE/NBLcT6R/iZ3f0gXjwzl67SegKR7imvjhXm3lJUcjbszoFuFb3U8rVPbVl9beCShvHnQ0+N2NKbsMDdjfnG3GJKIAo3gueJe78Un2KFUEWZUpc1nCj0vUDrm7XlK75+Ex24hnLPfGsbD+fvb09pgMSCXr7/XCaMBtBRBYKPgscmVKG/8E5BQX2SwObcCNBoNZGSam7+2Qt7LUUv+5Faw9p+RdSrO9zWyxJ2cs6GUkxIzlGVZDmnThcbKGV96v7av2MAZXB+vEgqYHqlnwKWoXcgZTn2ONRDC29ISgiXzm8eH4a4l2n3mhgXyZew=
+    secure: 92b46ebea48addd232a01ccfbd3ff9863e92e4aa
   file: build/ios/iphoneos/app.ipa
   skip_cleanup: true
   on:
