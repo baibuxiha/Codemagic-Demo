@@ -24,8 +24,9 @@ before_deploy:
 - popd
 deploy:
   provider: releases
-  api_key: 3e37a310a4a541620baaa04a84c742647c01b828
+  api_key:
+    secure: WkXnHOjFy6f/Ymtklk4Jnn4MAhC9fS1MWFL7rfer/zLo/h6peng/Wz1i5CjIMlCwZ294VuwTmk4Bazdp0leChH9aOiTPYKHglcHdUdQCn0qkU9gfsf0iVYK4w4RVMNzSMdapyTMPyRHuqunWtJlYEZqkql7ucZRdbcnUWmXnql9Y4QYDy7G2Ihp1G11SSyDV+DkB+Mv7ftizEFOWfULLn2AN4NeIteycNJKVrKQbhMjsAoPXT73a98V7BhF2SR4ReHrMSszZPKzs1dFM26kvAhFzUvd+alpX0kY/o9OkRZp46OfUG69MIbDlaz/9iMbL70twWsbXRJKFm3M4+PusPQmrsLjuqC2d3mZy9Ou5cy9GiPDONKiZ1vCcA5Hm4TsTga9WUDux72dE1rezUC8SMUWFGNtoOhb/4Oe8YI48l7DBzBbVlAOLkbtd1nfqwQoecMwziyU5UmWVVdbASugTsa0XF3NG3pJtaDwUT3mzrfMbQwrPagNUDDxVY7IGf63wJfcqYaRkW93u6RJ+rYPBZhPRk+usvWI/6dMB/IN2J9A7Lq0BfJpThMT9h0XdiBTlj/zjpOg25gCXqdfgEW3f89aV3fLmey14JY1fhKA6ueDZRz2p7Y4La5i7PYYKcNFem7xJLpCiwkIa1reD1X/r0c8wjHLVY3jBBQk/wi1qpTI=
   file: build/ios/iphoneos/app.ipa
-  skip_cleanup: true 
+  skip_cleanup: true
   on:
     repo: baibuxiha/Codemagic-Demo
