@@ -26,5 +26,6 @@ deploy:
   provider: releases
   api_key: 3e37a310a4a541620baaa04a84c742647c01b828
   file: build/ios/iphoneos/app.ipa
+  skip_cleanup: true 
   on:
     repo: baibuxiha/Codemagic-Demo
