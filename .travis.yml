@@ -25,7 +25,7 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
-    secure: 15eadcec28951d11f2b0a8734742495c2703c154
+    secure: 346515a7f08c9c08cadf3113520bb411f7ec147b
   file: build/ios/iphoneos/app.ipa
   skip_cleanup: true
   on:
