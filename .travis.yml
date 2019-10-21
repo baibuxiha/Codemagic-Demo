@@ -24,9 +24,10 @@ before_deploy:
 - popd
 deploy:
   provider: releases
-  api_key:
-    secure: 346515a7f08c9c08cadf3113520bb411f7ec147b
+  github_token: $GITHUB_TOKEN
   file: build/ios/iphoneos/app.ipa
-  skip_cleanup: true
   on:
     repo: baibuxiha/Codemagic-Demo
+env:
+  global:
+    secure: WKH/0pKWbjvNKeZXnGe5sfWwUTQ55DVoF2m22/JO0KwtvciQENlZVG2TKTuk0ZSsSOK4B3E0Li/IjISzCbkjC8nVU+zTPk2G9SFTU1znT2Z8O4bZ4n6d1BVs6pBbuTbojXAaodBxtCksto4bBe28kQRqoKD14FcnEqqu+hpGS+Mj90NX5vLR9asbZpM6quYB0jlk8tFL89qMrKivjBL7UJ429zGdYB7vo9h5tdu3hzRVU1LAC8t+dkvamnbG/pYfeZ3MSRlsNKZBlPaopfku9x9HUBOsLLuPr+HgwOte7lHa7Qp1drWBc7nbbjHUs/UNnBSeaPaQTj3k8xkQa2lDSifEEGO1WIWnWJMWrku9RG8UmD/5cC3dU4fSA4KEcn6RCBdosxGiKh0YX2bxf8pa0Ess4ypJS9ZgLn+nWxWoClOTCCW2ppGgpoHPplFBGcY39v9+LghJInD/9fCY97Qx13XYJmiVhLpFkkCPWnldQ5sJWMRSmMiczu/BP3Xx2JdjiufrZy/7WFDb9s9uV/ZdqY7PUb6pCfequzMthzrh+B4Db+1c39EyKsAa4EoNquEp8z2XbwiIBEgNMIRMa6/9jINQW4fQQYjjzTQejzECf3l9PT8oFQAcqRixeQl3QVP8D9rkm/kVZjmsyX1zR3S9bcQKgClACA3ZPWmoPS3RLQ0=
